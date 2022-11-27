@@ -1,0 +1,87 @@
+body{
+    background-image: url('background.jpg');
+}
+
+#pop{
+	  position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 1% 2% 1% 2%;
+    color: white;
+   border-radius: 4px;
+   margin: 0 3% 5% 0;
+}
+
+h2{
+    margin-left: 25vw;
+    margin-top: 1vw;
+    border-radius: 2vw;
+    font-size: 2vw;
+    width: 45vw;
+    height: 2.5vw;
+    text-align: center;
+    color: #38a9eb;
+    box-shadow: 0px 0px 3px #38a9eb;
+
+}
+
+
+.avatar{
+    border: 0.1vw solid rgb(218, 218, 218);
+    background-color: rgb(116, 114, 114);
+    border-radius: 2vw;
+    height: 10vw;
+    width: 10vw;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    user-select: none;
+    transition: 1s;
+}
+
+.avatar:hover{
+    height: 9.8vw;
+    width: 9.8vw;
+    box-shadow: 0px 0px 10px #38a9eb;
+}
+
+
+/* PRESENTATION */
+#roundI{
+    font-size: 2vw;
+    user-select: none;
+    color: rgb(29, 53, 187);
+    background-color: rgba(28, 74, 199, 0.411);
+}
+
+
+#ensemble{margin-top: 2vw;
+
+}
+
+.presentation{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+.imgvs{
+    display: inline-block;
+    border: 0.1vw solid rgb(28, 74, 199);
+    background-color: rgba(28, 74, 199, 0.411);
+    border-radius: 2vw;
+    margin-left: 1.5vw;
+
+}
+
+
+#VS{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    margin: 2vw;
+    text-align: center;
+    color: rgb(29, 53, 187);
+    user-select: none;
+}
+
+
+  

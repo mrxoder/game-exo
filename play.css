@@ -1,0 +1,139 @@
+body{   
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+}
+
+@media screen and (max-width: 576px){   
+   #player0{
+	    width: 10%;
+   }
+   #player1{
+		  width: 10%;
+   }
+   
+   #combo0, #combo1{
+		   width: 15%;
+   }
+
+   
+}
+
+@media screen and (min-width: 576px){
+   
+   #player0{
+	    width: 20%;
+   }
+   #player1{
+		  width: 20%;
+   }
+   
+   
+   
+}
+
+
+
+
+#battlefield{
+    margin: 18% 0 0 0;
+}
+
+#col0 #player0{
+    position: absolute;
+    left: 22vw;
+    top: 0px;
+}
+
+
+#col1 #player1{
+    
+    position: absolute;
+    right: 22vw;
+    top: 0px;
+}
+
+#combo0, #combo1{
+   position: absolute;
+}
+
+#information{
+   margin:25% 0 0 0;
+   
+}
+
+.infotab{
+  display: block;
+	color: #fff;
+	margin: 0 0 0 2%;
+	padding: 3% 0 3% 0;
+	background-color: transparent;
+	text-align: center;
+	border-radius: 7px;
+	border: 1px solid;
+	width: 120%;
+}
+
+.infotab tr td{
+   padding: 0 2% 0 2%;
+}
+
+
+#col0 #notif0,#col1  #notif1{
+    font-size: 180%;
+    position: absolute;
+    top: 0px;
+}
+
+#col1  #notif1{
+    right: 22vw;
+}
+
+#col0  #notif0{
+    left: 20vw;
+} 
+
+
+#action{
+  list-style-type: none;
+  background-color: rgba(0, 0,0,0.6);
+  color: white;
+  position: absolute;
+  top: 0;
+  padding: 0.5% 0.5% 2% 0.5%;
+  border: 1px solid white;
+  display: none;
+  width: 10%;
+  text-align: center;
+}
+
+#action li{
+  width:100%;
+}
+#action li:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+#attacklist{
+  list-style-type: none;
+  background-color: rgba(0, 0,0,0.7);
+  color: white;
+  position: absolute;
+  top: 0;
+  padding: 0.5% 0.5% 2% 0.5%;
+  border: 1px solid white;
+  display: none;
+  width: 10%;
+  text-align: center;
+}
+
+#attacklist li{
+  width:100%;
+}
+#attacklist li:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
