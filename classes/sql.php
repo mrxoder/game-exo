@@ -13,7 +13,7 @@ class sql{
 				  
 	  }
 			
-		public function connect(){
+	public function connect(){
 				
 		    $host = "mysql:host={$this->host};dbname={$this->dbname}";
 			  
